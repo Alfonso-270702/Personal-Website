@@ -1,0 +1,37 @@
+.footer-wrapper {
+  .text-footer {
+    color: #595959;
+    margin: 0;
+  }
+
+  .footer-info-space {
+    padding-top: 2rem;
+  }
+
+  .info-footer {
+    padding: 0 1rem 3rem;
+    font-family: Poppins;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer-wrapper {
+    .info-footer {
+      padding: 0 2rem 3rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-wrapper .info-footer {
+    padding: 0 4rem 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-wrapper {
+    .info-footer {
+      padding: 0 6rem 3rem;
+    }
+  }
+}

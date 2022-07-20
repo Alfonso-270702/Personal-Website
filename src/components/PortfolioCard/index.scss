@@ -1,0 +1,80 @@
+.portfolio-wrapper {
+  padding: 2rem 2rem;
+  .justify-content {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+  .see-more {
+    margin-top: 20px;
+    .link-more {
+      text-decoration: none;
+      color: #555b61;
+    }
+  }
+  .card {
+    border-radius: 20px;
+    border: none !important;
+    margin-bottom: 20px;
+    .card-body {
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+      border: none;
+      border-radius: 20px;
+      font-family: 'poppins';
+      font-weight: 300;
+      img {
+        width: 100%;
+      }
+      .warapper-desc {
+        padding: 20px;
+      }
+      .demo-link {
+        color: #595959;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .btn-outline {
+    font: 400 1rem/1.5rem Poppins, sans-serif;
+    border: 1px solid #555b61;
+    color: #555b61;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    background-color: transparent;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+
+    &:hover {
+      border: 1px solid #ff7c57;
+      color: #ff7c57;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+
+      div path {
+        fill: #ff7c57;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio-wrapper {
+    padding: 3rem 2rem 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-wrapper {
+    padding: 3rem 4rem 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-wrapper {
+    padding: 0rem 6rem 1rem;
+  }
+}

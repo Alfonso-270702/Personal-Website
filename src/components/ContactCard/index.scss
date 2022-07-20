@@ -1,0 +1,47 @@
+.contact-wrapper {
+  padding: 2rem 2rem;
+  .card {
+    border-radius: 20px;
+    border: none !important;
+    width: 600px;
+    .card-body-contact {
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+      border: none;
+      border-radius: 20px;
+      font-family: 'poppins';
+      font-weight: 300;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      margin-bottom: 200px;
+      .contact-item {
+        color: #595959;
+        margin-right: 10px;
+      }
+    }
+  }
+  .tittle-page {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact-wrapper {
+    padding: 3rem 2rem 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-wrapper {
+    padding: 3rem 4rem 5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-wrapper {
+    padding: 0rem 6rem 5rem;
+  }
+}
