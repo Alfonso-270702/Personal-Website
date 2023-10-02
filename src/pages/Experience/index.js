@@ -17,7 +17,36 @@ export default function Experience() {
           <VerticalTimelineElement
             contentStyle={{ background: "#38b6ff", color: "#ffffff" }}
             contentArrowStyle={{ borderRight: "7px solid  #38b6ff" }}
-            date="January 2021 - Present"
+            date="October 2022 - Present"
+            iconStyle={{ background: "#1abc9c", color: "#ffffff" }}
+            icon={<WorkIcon />}
+            position="right"
+          >
+            <h3 className="vertical-timeline-element-title">
+              Low Code Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              at Cargo Community Network
+            </h4>
+            <p>
+              Create a Web for Company Directory, Maintain all apps that created
+              using Bubble, Create a web component that integrate to partner.
+            </p>
+            <p>
+              Building Agent Directory App, AWB Concierge App, Cargo Insurance
+              App and Payment Gateway Web Component
+            </p>
+            <p>
+              Tech Stacks: React JS, Bubble.io, JavaScript, HTML, CSS, Git, etc.
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
+
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            contentStyle={{ background: "#38b6ff", color: "#ffffff" }}
+            contentArrowStyle={{ borderRight: "7px solid  #38b6ff" }}
+            date="January 2021 - October 2022"
             iconStyle={{ background: "#1abc9c", color: "#ffffff" }}
             icon={<WorkIcon />}
           >
